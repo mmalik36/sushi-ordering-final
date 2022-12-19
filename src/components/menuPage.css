@@ -1,0 +1,23 @@
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:2px;
+
+}
+
+.menuItem {
+
+position: relative;
+    display: compact;
+    left:70px;
+}
+
+.btCart{
+
+    box-sizing: border-box;
+    height: 100%;
+
+
+}
