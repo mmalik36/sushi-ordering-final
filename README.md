@@ -1,6 +1,7 @@
-Go to main folder and perform npm install
-Go to server folder and perform npm install and then node index.ks
-Return to main folder and perform npm start 
+#Go to main folder and perform npm install
+#Go to server folder and perform npm install and then node index.ks
+#Return to main folder and perform npm start 
+#Make sure product order ID in database.json matches category ID via mongoDB
 
 # Getting Started with Create React App
 
