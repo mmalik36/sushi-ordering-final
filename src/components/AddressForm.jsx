@@ -13,7 +13,7 @@ export const AddressForm = ({ onTabSwitch }) => {
     }
 
     return (
-        <form className="md:w-2/3 md:mx-auto px-3 pt-1" onSubmit={handleSubmit(onSubmit)}>
+        <form className="md:w-11/12 md:mx-auto px-3 pt-1" onSubmit={handleSubmit(onSubmit)}>
             <h3 className="pt-4 text-2xl md:text-center">Address for the delivery</h3>
             <div className="mb-4">
                 <label className="block mb-2 text-sm font-bold text-gray-700" for="streetAddress">Street Address</label>

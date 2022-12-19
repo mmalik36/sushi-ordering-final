@@ -4,6 +4,8 @@ import { fetchProducts, selectAllProducts } from "../../stores/menu/productsSlic
 import ProductDetailCard from "../../components/ProductDetailCard";
 import { Tabs } from "../../components/Tabs";
 import { addToCart } from "../../stores/cart/cartSlice";
+import {About} from "../../components/About"
+
 
 const Menu = () => {
     const dispatch = useDispatch();
@@ -33,6 +35,8 @@ const Menu = () => {
     }
 
     return (
+        <div>
+
         <div className="bg-white">
            {
             products.status !== 'fulfilled' ?
@@ -56,7 +60,11 @@ const Menu = () => {
                 }
                 </div>
             </div>
+
+
            }
+        </div>
+            <About/>
         </div>
     )
 }

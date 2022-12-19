@@ -75,7 +75,7 @@ const PaymentForm = () => {
     }
 
     return (
-        <form className="md:-2/3 md:mx-auto px-2 pt-1" id="payment-form" onSubmit={handleSubmit}>
+        <form className="md:-2/3  md:mx-auto px-2 pt-1" id="payment-form" onSubmit={handleSubmit}>
             <label htmlFor="card-element" className="pt-4 text-2xl md:text-center">Please enter your card details</label>
             <div className="my-4">
                 <CardElement id="card-element" />
